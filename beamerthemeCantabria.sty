@@ -1,0 +1,55 @@
+\ProvidesPackage{beamerthemeCantabria}
+
+\DeclareOptionBeamer{compress}{\beamer@compresstrue}
+\ProcessOptionsBeamer
+
+
+\newfont{\supersmall}{cmss17 scaled 400}
+
+\mode<presentation>
+
+
+% outer
+% extends miniframes, must be called first
+\setbeamertemplate{navigation symbols}{} %no nav symbols
+\def\beamer@theme@footline@titleslide{
+  \defbeamertemplate*{footline}{miniframes theme}
+  {%
+    \begin{beamercolorbox}[colsep=1.5pt]{upper separation line foot}
+    \end{beamercolorbox}
+    \begin{beamercolorbox}[ht=2.5ex,dp=1.125ex,%
+      leftskip=.3cm,rightskip=.3cm plus1fil]{title in head/foot}%
+      \leavevmode{\usebeamerfont{title in head/foot}\insertshorttitle}%
+      \hfill%
+%      {\usebeamerfont{author in head/foot}\usebeamercolor[fg]{author in head/foot}\insertshortauthor}%
+       \insertframenumber{}/\inserttotalframenumber\hspace*{2ex}
+    \end{beamercolorbox}%
+    \begin{beamercolorbox}[colsep=1.5pt]{lower separation line foot}
+    \end{beamercolorbox}
+  }
+}
+\useoutertheme[subsection=false,shadow,footline=titleslide]{miniframes}
+
+
+% color
+\definecolor{DeepSkyBlue3}{RGB}{0,154,205} % alternatively use xcolor=x11names option for documentclass
+\setbeamercolor*{lower separation line head}{bg=DeepSkyBlue3} %
+\setbeamercolor*{normal text}{fg=black,bg=white} %
+\setbeamercolor*{alerted text}{fg=red} %
+\setbeamercolor*{example text}{fg=black} %
+\setbeamercolor*{structure}{fg=black} %
+\setbeamercolor*{palette tertiary}{fg=black,bg=black!10} %
+\setbeamercolor*{palette quaternary}{fg=black,bg=black!10}
+\setbeamercolor*{block body}{fg=white,bg=DeepSkyBlue3}
+% \setbeamercolor{block title}{fg=black,bg=DeepSkyBlue3}
+\setbeamercolor{title}{parent=block body}
+\setbeamercolor{subsection in toc}{fg=black!20}
+
+
+% inner
+\setbeamertemplate{blocks}[rounded]
+\setbeamertemplate{title page}[default][rounded=true] % see beamerinnerthemerounded.sty
+
+
+\mode
+<all>

@@ -1,0 +1,84 @@
+\documentclass[compress,ignorenonframetext]{beamer}
+\usetheme{Cantabria}
+
+\title{Sample Beamer Presentation}
+\author{Author Name}
+\institute{Company or Institute}
+
+\begin{document}
+
+
+\frame[plain]{\titlepage}
+
+\setbeamertemplate{footline}{}
+\begin{frame}
+\addtocounter{framenumber}{-1}
+\frametitle{Contents}%
+\tableofcontents%
+\end{frame}
+
+\section{Background}
+
+\subsection{Slide 1}
+\begin{frame}{Slide 1}
+Paragraph
+\begin{itemize}
+\item Bullet item
+	\begin{itemize}
+	\item Sub-item one
+	\item Sub-item two
+	\end{itemize}
+\item[\color{green} $\bullet$] A colored bullet item
+\item[\color{red} $\bullet$] Another colored bullet item
+\end{itemize}
+
+\end{frame}
+
+\subsection{Slide 2}
+\begin{frame}{Slide 2}
+\begin{block}{}
+This is a sample block without a title.
+\end{block}
+With text below it
+\end{frame}
+
+\subsection{Slide 3}
+\begin{frame}{Slide 3}
+Columns
+\begin{columns}
+\column{0.6\textwidth}
+\begin{itemize}
+\item Left item 1
+\item Left item 2
+\end{itemize}
+\column{0.4\textwidth}
+Right column
+\end{columns}
+\end{frame}
+
+\begin{frame}
+Final frame. Conclusions.
+%
+% store frame number to exclude from regular numbering
+\newcounter{finalframe}
+\setcounter{finalframe}{\value{framenumber}}
+\end{frame}
+
+\appendix
+
+\section{Appendices}
+\subsection{Appendix A}
+\begin{frame}[noframenumbering]{Appendix A}
+A cunningly hidden appendix.
+\end{frame}
+
+
+\subsection{Appendix B}
+\begin{frame}[noframenumbering]{Appendix B}
+%
+Another cunningly hidden appendix.
+%
+\setcounter{framenumber}{\value{finalframe}} %
+\end{frame}
+
+\end{document}

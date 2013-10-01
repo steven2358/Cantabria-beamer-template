@@ -1,7 +1,7 @@
 ﻿Cantabria Beamer template
 =========================
 
-Minimalist Beamer template used at the University of Cantabria (Santander, Spain).
+Minimalist Beamer template used at the University of Cantabria (Universidad de Cantabria, Santander, Spain).
 
 The latest version of this theme can be found on [GitHub](https://github.com/steven2358/cantabria-beamer-template).
 

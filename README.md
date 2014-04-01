@@ -17,7 +17,7 @@ Minimal example
 
 Installation
 ------------
-The easiest way to install this theme is to just dump the *.sty file into the same directory as your tex source. View sample.tex for a sample use of the template.
+The easiest way to install this theme is to just dump the `beamerthemeCantabria.sty` file into the same directory as your tex source. View `sample.tex` for a sample use of the template.
 
 License
 -------

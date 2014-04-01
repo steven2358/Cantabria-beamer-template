@@ -4,15 +4,30 @@
 \title{Sample Beamer Presentation}
 \author{Author Name}
 \institute{Company or Institute}
+\date{Conference, Place, Date}
 
 \begin{document}
 
+% standard title page
+%\frame[plain]{\titlepage}
+%\setbeamertemplate{footline}{}
 
-\frame[plain]{\titlepage}
-
-\setbeamertemplate{footline}{}
-\begin{frame}
+% title page with custom logos
+\begin{frame}[plain]
+\vspace{\stretch{1}} % push title down a little
+\titlepage % write standard title page
+\vspace{\stretch{.5}}
+% vertically center logos with raisebox
+\raisebox{-0.5\height}{\includegraphics[width=2cm]{fig/logo1}}
+\hspace{\stretch{1}}
+\raisebox{-0.5\height}{\includegraphics[width=1.2cm]{fig/logo2}}
+\hspace{\stretch{1}}
+\raisebox{-0.5\height}{\includegraphics[width=2cm]{fig/logo3}}
 \addtocounter{framenumber}{-1}
+\end{frame}
+
+\begin{frame}
+%\addtocounter{framenumber}{-1}
 \frametitle{Contents}%
 \tableofcontents%
 \end{frame}

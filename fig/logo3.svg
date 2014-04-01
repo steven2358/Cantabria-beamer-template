@@ -9,8 +9,8 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="215.35715"
-   height="119.28571"
+   width="210.35715"
+   height="92.85714"
    id="svg2"
    version="1.1"
    inkscape:version="0.48.4 r9939"
@@ -25,8 +25,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="2.8"
-     inkscape:cx="98.290273"
-     inkscape:cy="50.701188"
+     inkscape:cx="37.575987"
+     inkscape:cy="37.486899"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -48,7 +48,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -56,17 +56,17 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-62.5,-15.219322)">
+     transform="translate(-65,-28.433607)">
     <rect
-       style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#0059ff;stroke-width:5;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       style="color:#000000;fill:#008080;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
        id="rect2985"
        width="210.35715"
-       height="114.28571"
+       height="92.85714"
        x="65"
-       y="17.719322" />
+       y="28.433607" />
     <text
        xml:space="preserve"
-       style="font-size:59.74768066px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#008080;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+       style="font-size:59.74768066px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
        x="169.36171"
        y="90.047073"
        id="text2987"
@@ -75,6 +75,6 @@
          id="tspan2989"
          x="169.36171"
          y="90.047073"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#008080;font-family:Sans;-inkscape-font-specification:Sans">Logo 3</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#ffffff;font-family:Sans;-inkscape-font-specification:Sans">Logo 3</tspan></text>
   </g>
 </svg>

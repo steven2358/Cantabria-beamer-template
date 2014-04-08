@@ -53,3 +53,10 @@
 
 \mode
 <all>
+
+
+\makeatletter
+\DeclareRobustCommand{\em}{%
+  \@nomath\em \if b\expandafter\@car\f@series\@nil
+  \normalfont \else \bfseries \color{DeepSkyBlue3} \fi}
+\makeatother

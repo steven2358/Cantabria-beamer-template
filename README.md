@@ -15,6 +15,10 @@ Minimal example
 \end{document}
 ```
 
+See in action
+---
+Check a [minimal demo](https://github.com/steven2358/Cantabria-beamer-template/raw/master/sample.pdf) (PDF).
+
 Installation
 ------------
 The easiest way to install this theme is to just dump the `beamerthemeCantabria.sty` file into the same directory as your tex source. View `sample.tex` for a sample use of the template.

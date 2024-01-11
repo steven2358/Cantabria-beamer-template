@@ -48,6 +48,19 @@
 \setbeamercolor{title}{parent=block body}
 \setbeamercolor{subsection in toc}{fg=black!20}
 
+% bullet and numbers color inside blocks
+\setbeamertemplate{itemize item}[triangle]  % Define the default shape for itemize
+\setbeamercolor{itemize item}{fg=black}    % Default color for itemize items outside blocks
+\setbeamercolor{enumerate item}{fg=black}  % Default color for enumerate items outside blocks
+
+\BeforeBeginEnvironment{block}{
+    \setbeamercolor{itemize item}{fg=white} % White bullets inside blocks
+    \setbeamercolor{enumerate item}{fg=white} % White numbers inside blocks
+}
+\AfterEndEnvironment{block}{
+    \setbeamercolor{itemize item}{fg=black} % Revert itemize color after the block
+    \setbeamercolor{enumerate item}{fg=black} % Revert enumerate color after the block
+}
 
 % inner
 \setbeamertemplate{blocks}[rounded]
